@@ -50,7 +50,7 @@ h1 {
     line-height: 1.6;
 
     /* 🛠️ INI SENJATA UTAMANYA JANGAN SAMPAI LEWAT: */
-    border: 0.3px  solid #afafaf; /* Membuat bingkai kotak tebal 2px, garisnya utuh (solid), warna oranye */
+    border: 0,3px  solid #afafaf; /* Membuat bingkai kotak tebal 2px, garisnya utuh (solid), warna oranye */
     border-radius: 8px;        /* Membuat sudut kotak bingkainya agak melengkung biar estetik */
     padding: 15px;             /* Memberikan jarak kasur busa antara teks dengan garis bingkainya */
     margin: 20px 0;            /* Memberikan jarak kosong di luar kotak (atas dan bawah) sebesar 20px */
