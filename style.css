@@ -44,22 +44,17 @@ h1 {
     margin: 0 0 15px 0;
 }
 
-hr {
-    border: 0;
-    width: 60px;          /* Mengatur lebar kotak (cuma 60 pixel) */
-    height: 6px;          /* Mengatur tinggi/tebal kotak */
-    background-color: #ee4d2d; /* Warna oranye khas Shopee (bisa diganti) */
-    border-radius: 3px;   /* Membuat sudut kotaknya agak membulat (tidak terlalu tajam) */
-    margin: 20px auto;    /* 'auto' berfungsi memaksa kotak berada pas di tengah */
-}
-
 .deskripsi {
-    font-size: 15px;
+    font-size: 14px;
     color: #555555;
-    line-height: 1.5;
-    margin-bottom: 25px;
-}
+    line-height: 1.6;
 
+    /* 🛠️ INI SENJATA UTAMANYA JANGAN SAMPAI LEWAT: */
+    border: 1px solid #111111; /* Membuat bingkai kotak tebal 2px, garisnya utuh (solid), warna oranye */
+    border-radius: 8px;        /* Membuat sudut kotak bingkainya agak melengkung biar estetik */
+    padding: 15px;             /* Memberikan jarak kasur busa antara teks dengan garis bingkainya */
+    margin: 20px 0;            /* Memberikan jarak kosong di luar kotak (atas dan bawah) sebesar 20px */
+}
 /* Mengatur layout tombol bertumpuk ke bawah (vertikal) khas aplikasi HP */
 .grup-tombol {
     display: flex;
