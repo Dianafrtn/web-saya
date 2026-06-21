@@ -46,9 +46,11 @@ h1 {
 
 hr {
     border: 0;
-    height: 1px;
-    background: #e0e0e0;
-    margin: 15px 0;
+    width: 60px;          /* Mengatur lebar kotak (cuma 60 pixel) */
+    height: 6px;          /* Mengatur tinggi/tebal kotak */
+    background-color: #ee4d2d; /* Warna oranye khas Shopee (bisa diganti) */
+    border-radius: 3px;   /* Membuat sudut kotaknya agak membulat (tidak terlalu tajam) */
+    margin: 20px auto;    /* 'auto' berfungsi memaksa kotak berada pas di tengah */
 }
 
 .deskripsi {
